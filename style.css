@@ -1,36 +1,122 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300");
-html,
-body {
-  height: 100%;
-  width: 100%;
+
+* {
   margin: 0;
+  box-sizing: border-box;
+  padding: 0;
 }
-body {
+
+
+.nav-sec {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  background: linear-gradient(to right bottom, #873572, black);
 }
-a {
-  display: inline-block;
-  color: lightgrey;
-  font-size: 16px;
+
+.logo {
+  display: flex;
+  align-items: center;
   font-family: "Roboto", sans-serif;
-  white-space: nowrap;
-  padding: 12px;
-  border: 1px solid white;
-  border-radius: 30px;
-  text-decoration: none;
-  transition: all 0.15s ease-in-out;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 900;
+  cursor: pointer;
 }
 
-a:hover {
-  background: rgba(0, 0, 0, 0.23);
-  color: white;
-  transform: scale(1.03);
-  text-decoration: none;
-}
-a:active {
-  transform: scale(0.98);
+.logo img {
+  width: 60px;
+  height: 60px;
 }
 
+.mid-nav {
+  font-family: 'Roboto';
+  font-size: small;
+  font-weight: 800;
+}
+
+.mid-nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.right-nav {
+  display: flex;
+  margin-right: 3rem;
+  gap: 2rem;
+}
+
+.right-nav img {
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+
+}
+
+.homeimg {
+  width: 100vw;
+}
+
+.homeimg img {
+  width: 100%;
+}
+
+.cart {
+  margin: auto;
+  width: 90vw;
+  margin-top: 2.5rem;
+}
+
+.cart-item-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22%;
+  width: 70%;
+  height: 2.8rem;
+  font-size: 15px;
+  font-family: sans-serif;
+  border-radius: 3px;
+  background-color: #F9F1E7;
+  margin-bottom: 2rem;
+}
+
+.quant_sub {
+  display: flex;
+  gap: 3rem;
+}
+
+.item-image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 11px;
+}
+
+.itemlist {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.span2 {
+  margin-left: 2rem;
+  color: #c9c9c9;
+}
+
+.span3 {
+  margin-left: 12%;
+  color: #c9c9c9;
+}
+
+.span4 {
+  margin-left: 14%;
+  border: 1px solid #9F9F9F;
+  border-radius: 6px;
+  padding: 6px 9px;
+}
+
+.span5 {
+  margin-left: 4rem;
+  
+}
