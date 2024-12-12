@@ -55,7 +55,7 @@
 }
 
 .homeimg {
-  width: 100vw;
+  width: 100%;
 }
 
 .homeimg img {
@@ -66,6 +66,12 @@
   margin: auto;
   width: 90vw;
   margin-top: 2.5rem;
+  display: flex;
+
+}
+
+.item-details {
+  width: 70%;
 }
 
 .cart-item-heading {
@@ -73,7 +79,7 @@
   align-items: center;
   justify-content: center;
   gap: 22%;
-  width: 70%;
+  width: 88%;
   height: 2.8rem;
   font-size: 15px;
   font-family: sans-serif;
@@ -85,6 +91,10 @@
 .quant_sub {
   display: flex;
   gap: 3rem;
+}
+
+.itemlist {
+  width: 100%;
 }
 
 .item-image img {
@@ -110,7 +120,7 @@
 }
 
 .span4 {
-  margin-left: 14%;
+  margin-left: 18%;
   border: 1px solid #9F9F9F;
   border-radius: 6px;
   padding: 6px 9px;
@@ -118,5 +128,90 @@
 
 .span5 {
   margin-left: 4rem;
-  
+
+}
+
+.total-cart {
+  font-family: sans-serif;
+  width: 22%;
+  padding: 20px 0px 0px 0px;
+  height: 18rem;
+  background-color: #F9F1E7;
+}
+
+.total_cart-heading {
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.subtotal {
+  margin-top: 3rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  width: 70%;
+  margin: auto;
+}
+
+.btn {
+  border: 1px solid;
+  font-family: sans-serif;
+  font-size: 19px;
+  color: #3c3c3c;
+  outline: none;
+  background-color: #F9F1E7;
+  margin-top: 2.4rem;
+  padding: 9px 34px;
+  position: relative;
+  left: 15px;
+  border-radius: 8px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #F9F1E7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 11rem;
+  margin-top: 5rem;
+
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.footer_chip {
+  display: flex;
+  gap: 7px;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.footer-info_p1 {
+  font-size: 17px;
+  font-weight: 600;
+
+  color: rgb(47, 46, 46);
+}
+
+.footer-info_p2 {
+  color: #898989;
+  margin-top: 10px;
+  font-size: 14px;
 }
