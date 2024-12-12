@@ -29,8 +29,6 @@ Take a moment to review the project structure:
 ## Development and Testing
 
 4. **Start Working:**
-- Read all requirements that are shared with design files.
-- Open `index.html` in your browser to view the initial state of the project, And start coding.
-- Modify the `style.css` and `script.js` files to implement your solution.
+- Open `index.html` in your browser to view the project
 ---
 
